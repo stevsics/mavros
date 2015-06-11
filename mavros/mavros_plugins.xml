@@ -35,6 +35,9 @@
 	<class name="setpoint_control" type="mavplugin::SetpointControlPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Send to FCU external control target setpoint.</description>
 	</class>
+	<class name="force_setpoint_pub" type="mavplugin::ForceSetpointPubPlugin" base_class_type="mavplugin::MavRosPlugin">
+		<description>Checking out messages send to FMU(for debugging).</description>
+	</class>
 	<class name="safety_area" type="mavplugin::SafetyAreaPlugin" base_class_type="mavplugin::MavRosPlugin">
 		<description>Send to FCU safety allowed area.</description>
 	</class>
