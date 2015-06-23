@@ -45,7 +45,7 @@ public:
     const message_map get_rx_handlers() {
     	return
     	{
-    		MESSAGE_HANDLER(MAVLINK_MSG_ID_SET_CONTROL_TARGET_LOCAL_NED, &ForceSetpointPubPlugin::handle_force_setpoint)
+    		MESSAGE_HANDLER(MAVLINK_MSG_ID_SET_CONTROL_TARGET_LOCAL_NED, &ForceSetpointPubPlugin::handle_force_setpoint),
     	};
 	}
 
